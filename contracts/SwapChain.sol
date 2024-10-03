@@ -8,7 +8,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract SwapChain is ReentrancyGuard, Ownable {
     using SafeERC20 for IERC20;
-    address public owner;
+    // address public owner;
 
     struct UserDeposit {
         mapping(address => uint256) tokenBalances;
